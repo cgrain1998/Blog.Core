@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlSugarCore" Version="5.0.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Blog.Core.IRepository\Blog.Core.IRepository.csproj" />
+    <ProjectReference Include="..\Blog.Core.IServices\Blog.Core.IServices.csproj" />
+  </ItemGroup>
+
+</Project>
